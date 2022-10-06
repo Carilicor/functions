@@ -5,5 +5,9 @@
 
 
 const addTwo = require ("./external.js") //add from seperate file
-const sum = addTwo(3,4)
-console.log(sum)
+const subtract = require("./minus.js")
+//const sum = addTwo(3,4)
+//console.log(sum)
+
+const total = subtract(10,3)
+console.log(total)
